@@ -9,7 +9,7 @@ import os
 from datetime import datetime
 import time
 import logging
-from .utils import read_txt, read_examples, retrieve_evaluate, convert_examples_to_features, write_log, DataLoader
+from src.retriever.utils import read_txt, read_examples, retrieve_evaluate, convert_examples_to_features, write_log, DataLoader
 from config import parameters as conf
 from torch import nn
 import torch
