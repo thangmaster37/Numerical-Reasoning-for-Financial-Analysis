@@ -20,7 +20,7 @@ from config import parameters as conf
 _SPECIAL_TOKENS_RE = re.compile(r"^\[[^ ]*\]$", re.UNICODE)
 
 # sys.path.insert(0, '../utils/')
-from utils.general_utils import table_row_to_text
+from src.utils.general_utils import table_row_to_text
 
 
 def str_to_num(text):
